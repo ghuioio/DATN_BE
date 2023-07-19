@@ -8,10 +8,8 @@
     ],
     "routes": [
       {
-        "src": "/api/(.*)",
-        "dest": "./index.js"
+        "src": "/(.*)",
+        "dest": "/"
       }
-    ],"env": {
-      "MONGODB_URI": "mongodb+srv://nguyenhungson:sn31101999@cluster0.9ympp.mongodb.net/webbookdatabase?retryWrites=true&w=majority"
-    }
+    ]
   }
